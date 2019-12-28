@@ -101,6 +101,7 @@
             // 
             // txtAnio
             // 
+            this.txtAnio.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtAnio.Location = new System.Drawing.Point(148, 80);
             this.txtAnio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAnio.Name = "txtAnio";
@@ -109,6 +110,7 @@
             // 
             // txtNomE
             // 
+            this.txtNomE.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtNomE.Location = new System.Drawing.Point(148, 31);
             this.txtNomE.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNomE.Name = "txtNomE";
@@ -191,6 +193,7 @@
             // 
             // txtRtdoOrd
             // 
+            this.txtRtdoOrd.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtRtdoOrd.Location = new System.Drawing.Point(180, 362);
             this.txtRtdoOrd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtRtdoOrd.Name = "txtRtdoOrd";
@@ -219,6 +222,7 @@
             // 
             // txtRtdoNeto
             // 
+            this.txtRtdoNeto.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtRtdoNeto.Location = new System.Drawing.Point(180, 320);
             this.txtRtdoNeto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtRtdoNeto.Name = "txtRtdoNeto";
@@ -227,6 +231,7 @@
             // 
             // txtVtas
             // 
+            this.txtVtas.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtVtas.Location = new System.Drawing.Point(180, 280);
             this.txtVtas.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtVtas.Name = "txtVtas";
@@ -266,6 +271,7 @@
             // 
             // txtBnsC
             // 
+            this.txtBnsC.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtBnsC.Location = new System.Drawing.Point(180, 235);
             this.txtBnsC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBnsC.Name = "txtBnsC";
@@ -274,6 +280,7 @@
             // 
             // txtPN
             // 
+            this.txtPN.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtPN.Location = new System.Drawing.Point(180, 195);
             this.txtPN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPN.Name = "txtPN";
@@ -282,6 +289,7 @@
             // 
             // txtPasNoCte
             // 
+            this.txtPasNoCte.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtPasNoCte.Location = new System.Drawing.Point(180, 150);
             this.txtPasNoCte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPasNoCte.Name = "txtPasNoCte";
@@ -290,6 +298,7 @@
             // 
             // txtPasCte
             // 
+            this.txtPasCte.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtPasCte.Location = new System.Drawing.Point(180, 107);
             this.txtPasCte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPasCte.Name = "txtPasCte";
@@ -298,6 +307,7 @@
             // 
             // txtActNoCte
             // 
+            this.txtActNoCte.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtActNoCte.Location = new System.Drawing.Point(180, 64);
             this.txtActNoCte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtActNoCte.Name = "txtActNoCte";
@@ -306,6 +316,7 @@
             // 
             // txtActCte
             // 
+            this.txtActCte.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtActCte.Location = new System.Drawing.Point(180, 24);
             this.txtActCte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtActCte.Name = "txtActCte";
@@ -377,9 +388,8 @@
             this.btnCalcular.BackColor = System.Drawing.Color.SteelBlue;
             this.btnCalcular.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCalcular.FlatAppearance.BorderSize = 10;
-            this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCalcular.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.btnCalcular.Font = new System.Drawing.Font("Calibri", 10.2F);
+            this.btnCalcular.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.btnCalcular.Location = new System.Drawing.Point(849, 560);
             this.btnCalcular.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCalcular.Name = "btnCalcular";
@@ -602,7 +612,6 @@
             // btnLimpiar
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.LightGray;
-            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLimpiar.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnLimpiar.Location = new System.Drawing.Point(714, 560);
@@ -618,7 +627,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(968, 616);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.groupBox3);
@@ -626,6 +635,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Black;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
